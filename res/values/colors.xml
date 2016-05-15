@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="main.label">#FFFFFF</color>
+<color name="main.numeric">#FFFFFF</color>
+<color name="default.category">#003FFF</color>
+<color name="grid.text">#FFFFFF</color>
+<color name="grid.backgound">#FFAC00</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="main.activity.title">MyFinances/Summary</string>
+<string name="main.label.totalExpenses">Total expenses</string>
+<string name="main.label.from">From</string>
+<string name="main.label.to">to</string>
+<string name="main.label.inCash">Cash</string>
+<string name="main.label.creditCard">Credit Card</string>
+<string name="main.label.byCategory">Expenses by category</string>
+<string name="main.gridheader.category">Category</string>
+<string name="main.gridheader.value">Value</string>
+<string name="main.menuButton.expenses">New Expense</string>
+<string name="main.menuButton.history">History</string>
+<string name="main.menuButton.settings">Settings</string>
+<string name="main.menuButton.about">About</string>
+</resources>

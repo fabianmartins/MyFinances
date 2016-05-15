@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <CheckBox 
+	android:id="@+id/category.row.chkCategoryInUse" 
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent" 
+	android:padding="10dp"
+	android:scrollbars="vertical" 
+	android:fadingEdge="vertical"
+	android:editable="false"
+	android:focusable="false"
+  />
+  <TextView
+  	android:id="@+id/category.row.lblCategoryName"
+  	android:text="Category.Row"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+	android:padding="10dp"
+  	android:scrollbars="vertical" 
+	android:fadingEdge="vertical"
+	android:gravity="left|center_vertical"
+  >
+  </TextView>
+</LinearLayout>

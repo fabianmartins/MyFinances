@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="settings.activity.title">MyFinance/Settings</string>
+<string name="settings.label.account">Account</string>
+<string name="settings.label.synchronization">Synchronization</string>
+<string name="settings.label.lastSynchronization">Last synchronization at</string>
+<string name="settings.label.clickToSyncronize">Click to synchronize now</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="expense.activity.title">MyFinance/Expense</string>
+<string name="expense.label.date">Date</string>
+<string name="expense.label.category">Category</string>
+<string name="expense.label.amount">Amount</string>
+<string name="expense.label.paymentType">Payment type</string>
+<string name="expense.label.details">Details</string>
+<string name="expense.label.option.money">Money</string>
+<string name="expense.label.option.creditCard">Card</string>
+<string name="expense.menuButton.save">Save</string>
+<string name="expense.menuButton.cancel">Cancel</string>
+<string name="expense.message.invalidValue">Please check if you have entered a valid number for your expense value</string>
+<string name="expense.message.expenseStored">Expense sucessfully stored.</string>
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="horizontal|vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp" >
+
+        <TextView
+            android:id="@+id/expense.lblAmount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/expense.label.amount" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/expense.txtValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:inputType="numberDecimal"
+            android:lines="1" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/expense.lblDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expense.label.date" />
+
+        <LinearLayout
+            android:id="@+id/expense.layDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- android:editable="false" -->
+
+            <EditText
+                android:id="@+id/expense.txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:inputType="date" />
+
+            <Button
+                android:id="@+id/expense.btnPickDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/expense.lblCategory"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/expense.label.category" >
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/expense.layCategory"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Spinner
+                android:id="@+id/expense.cmbCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/expense.btnNewCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/expense.layPaymentType"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/expense.lblPaymentType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="0.5"
+                android:text="@string/expense.label.paymentType" />
+
+            <RadioGroup
+                android:id="@+id/expense.rgpPaymentType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/expense.rbtMoney"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:enabled="true"
+                    android:text="@string/expense.label.option.money" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/expense.rbtCreditCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="@string/expense.label.option.creditCard" >
+                </RadioButton>
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/expense.lblDetails"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/expense.label.details" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/expense.txtDetails"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|left"
+            android:lines="3"
+            android:scrollbars="horizontal|vertical"
+            android:inputType="text"
+            android:text="" >
+        </EditText>
+    </LinearLayout>
+
+</ScrollView>

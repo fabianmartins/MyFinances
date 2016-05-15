@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="history.activity.title">MyFinance/History</string>
+<string name="history.label.reference">Reference</string>
+<string name="history.label.category">Category</string>
+<string name="history.label.total">Total</string>
+<string name="history.gridheader.date">Date</string>
+<string name="history.gridheader.category">Category</string>
+<string name="history.gridheader.type">Type</string>
+<string name="history.gridheader.amount">Amount</string>
+<string name="history.menubutton.viewOrEditSelected">View/Edit</string>
+<string name="history.menubutton.deleteSelected">Delete</string>
+<string name="history.today">Today</string>
+<string name="history.last7Days">Last 7 days</string>
+<string name="history.last15Days">Last 15 days</string>
+<string name="history.last30Days">Last 30 days</string>
+<string name="history.last45Days">Last 45 days</string>
+<string name="history.noDetails"> --- no details --- </string>
+<string name="history.dialog.deleteExpense.title">Deleting an expense</string>
+<string name="history.dialog.deleteExpense.message">Do you confirm the deletion of the following expense?</string>
+<string name="history.dialog.deleteExpense.date">Date:</string>
+<string name="history.dialog.deleteExpense.category">Category:</string>
+<string name="history.dialog.deleteExpense.amount">Amount:</string>
+<string name="history.dialog.deleteExpense.details">Details:</string>
+<string name="history.contextmenu.title">Manage expense</string>
+<string name="history.contextmenu.option.delete">Delete</string>
+<string name="history.contextmenu.option.edit_view">Edit/View</string>
+</resources>

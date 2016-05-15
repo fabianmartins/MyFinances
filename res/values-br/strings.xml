@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFinances</string>
+    <string name="yes">Sim</string>
+    <string name="no">Nao</string>
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="Ok">Ok</string>
+    <string name="paymentType.cash">D</string>
+    <string name="paymentType.creditCard">CC</string>
+    <string name="strNewCategory">Nova Categoria</string>
+</resources>

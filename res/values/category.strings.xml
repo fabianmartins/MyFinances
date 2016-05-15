@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="category.activity.title">MyFinance/Category</string>
+<string name="category.menutitle">Selected category</string>
+<string name="category.menu.add">Add</string>
+<string name="category.menu.remove">Remove</string>
+<string name="category.menu.edit">Edit</string>
+<string name="category.menu.cancel">Cancel</string>
+</resources>
